@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #CC3366;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    list-style: none;
+	height:40px;
+	background:#CC3366;
+	margin-bottom: 0.2em;
+	line-height: 40px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #999;
+}
+.menu li a {
+color:#fff;
+font-weight: bold;
+text-decoration:none;
+margin-left:1em;
+}
+.menu li.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.menu li.gb {
+    background-color: #ffffff;
+    color: white;
+}
+.menu li:hover {
+    background-color: #FF6699;
+}
+.aside {
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+.footer {
+    background-color: #CC3366;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For mobile phones: */
+
+[class*="col-"] { 
+    float: left;
+    padding: 15px;
+}
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+	body {
+	background-color: #F4A460;
+	}
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+	body {
+	background-color: #FFCCFF;
+	}
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+<!-- div 1 header 
+img {
+    border-radius: 50%;
+}
+-->
+</style>
+</head>
+<body bgcolor="#B0C4DE">
+
+<!-- div 1 header -->
+<div class="header">
+  <h1 align="center">Daftar Rawayat Hidup</h1>
+</div>
+
+<!-- div 2 menu -->
+<div class="col-3 col-t-6 col-m-12 menu w3-container">
+	<center>
+		<picture>
+			<source srcset="lusi.jpg" media="(max-width: 400px)">
+			<source srcset="profil.jpg">
+			<img style="width:auto;">
+			        <h2>LUZIANA DEWI</h2>
+		</picture>
+	</center>
+	
+	<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Programmer</p>
+    <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>13 Maret 1995</p>
+    <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>Luzianadewi9@gmail.com</p>
+    <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>085799268150</p>
+    <hr>
+	<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Keahlian</b></p>
+          <p>MS Word,MS Excel,MS PowerPoint,dan Internet</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
+          </div>
+		  <p>Database MySql, Myob Accounting </p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>HTML,PHP,Javascript,CSS,JQuery</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">
+              <div class="w3-center w3-text-white">70%</div>
+            </div>
+          </div>
+          <p>Java Desktop, Java Mobile</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Bahasa</b></p>
+          <p>Indonesia</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Inggris</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:70%"></div>
+          </div>
+            <br>
+        </div>
+      </div><br>
+</div>
+
+<!-- div 3 content -->
+<div class="col-6 col-t-6 col-m-12 w3-twothird">
+<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Pengalaman Kerja</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Pengelolaan Data</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Februari 2016 - Maret 2016</h6>
+          <p>Kantor Otoritas Jasa Keuangan Yogyakarta</p>
+          <hr>
+        </div>
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>Instruktur dan Asisten Dosen </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - sekarang</h6>
+          <p>STMIK AKAKOM Yogyakarta</p>
+          <hr>
+        </div>
+      </div>
+	  
+	  <div class="w3-container w3-card-2 w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Latar Belakang Pendidikan</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>STMIK AKAKOM Yogyakarta</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016-sekarang</h6>
+          <p>S1 - Sistem Informasi</p>
+          <hr>
+        </div>
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>STMIK AKAKOM Yogyakarta</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013-2016</h6>
+          <p>D3 - Komputerisasi Akuntansi</p>
+          <hr>
+        </div>
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>SMA NEGERI 3 Cilacap</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010-2013</h6>
+          <p>IPA</p>
+          <hr>
+        </div>
+      </div>
+</div>
+
+<!-- div 4 aside -->
+<div class="col-3 col-t-12 col-m-12 aside">
+<center>
+	<p><font color="#000000">Find Me On Social Media: </font></p>
+    <p> <a href="https://www.facebook.com"> 
+	<img src="fb.png" width="52" height="49" alt="fb" /></a>
+	<a href= "https://www.youtube.com">
+	<img src="youtube.jpg" width="69" height="48" alt="y" /></a>
+	<a href= "https://www.instagram.com">
+	<img src="ig.png" width="50" height="48" alt="ig" /></a>
+	<a href= "https://www.twitter.com">
+	<img src="tw.png" width="52" height="52" alt="ig" /></a>
+	</p> 
+</center>
+	<p></p>
+	<p></p>
+	<div class="w3-container w3-card-1">
+		<picture>
+			<source srcset="foto1.jpg">
+			<img style="width:100%;">      
+		</picture>	
+	</div>
+	<p></p>
+	<p></p>
+	<div class="w3-container w3-card-1">
+		<picture>
+			<source srcset="foto2.jpg">
+			<img style="width:100%;">      
+		</picture>
+	</div>
+	<p></p>
+	<p></p>
+	<div class="w3-container w3-card-1">
+		<picture>
+			<source srcset="gb3.jpg">
+			<img style="width:100%;">      
+		</picture>
+	</div>
+	<p></p>
+	<p></p>
+	<div class="w3-container w3-card-1">
+		<picture>
+			<source srcset="gb4.jpg">
+			<img style="width:100%;">      
+		</picture>
+	</div>
+ </div>
+<!-- div 5 footer --> 
+<div class="col-12 col-t-12 col-m-12 footer">
+@Luzianadewi
+</div>
+
+</body>
+</html>
